@@ -1,73 +1,56 @@
-# 📊 Customer Churn Prediction – Telecom Industry
+# 🏠 Housing Price Prediction – Albany Real Estate
 
-This project predicts customer churn for a telecom company using machine learning. The goal is to identify which customers are likely to leave and provide actionable insights to reduce churn and improve customer retention.
+This project uses linear regression to predict housing prices in Albany, NY, based on various features such as square footage, number of bedrooms, and location attributes.
 
----
+## 📊 Project Description
 
-## 📁 Project Structure
+The objective of this analysis is to build a predictive model using linear regression on a real estate dataset. The dataset includes housing attributes and sale prices, enabling the model to estimate price trends and deliver valuable insights for potential buyers, sellers, or investors.
 
-- `notebooks/Customer_Churn_Prediction_Telecom_Sector.ipynb`  
-  ➤ Complete ML pipeline with EDA, feature engineering, and model evaluation
+## 📁 Dataset
 
-- `presentation/Customer Churn Prediction – Telecom Sector.pptx`  
-  ➤ Business-facing summary with insights and actionable recommendations
+The dataset was sourced from a real estate listings platform and includes the following features:
 
-- `data/Telco-churn.csv`  
-➤ Raw dataset containing 7,043 customer records with demographic, account, and usage information.
+- `square_feet`: Total area of the house
+- `bedrooms`: Number of bedrooms
+- `bathrooms`: Number of bathrooms
+- `location`: Area of the house
+- `price`: Sale price of the house (Target variable)
 
----
+## ⚙️ Technologies Used
 
-## 📌 Problem Statement
+- Python 3
+- Pandas
+- NumPy
+- Matplotlib & Seaborn
+- Scikit-learn (LinearRegression)
 
-The telecommunications industry faces revenue loss due to customer churn. This project:
-- Uses customer demographic, usage, and billing data
-- Applies multiple ML models to predict churn
-- Suggests data-driven retention strategies
+## 📌 Key Steps
 
----
+1. **Data Cleaning** – Handled missing values and irrelevant columns
+2. **Exploratory Data Analysis** – Visualized price trends and feature correlations
+3. **Feature Engineering** – Selected top contributing features
+4. **Model Building** – Applied linear regression and evaluated using R² and RMSE
+5. **Prediction** – Used the trained model to predict prices for unseen data
 
-## 📊 Machine Learning Models Used
+## 📈 Results
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Decision Tree
-- Random Forest
-- AdaBoost
-- Naive Bayes
-- Artificial Neural Network (MLP)
+- Achieved good model performance with logical feature correlations.
+- Visualization highlighted significant predictors of housing price like square footage and number of bedrooms.
 
----
+## 🧠 Future Improvements
 
-## 🏆 Key Results
+- Try advanced regression models (Lasso, Ridge, Random Forest)
+- Perform hyperparameter tuning
+- Deploy as a web app using Streamlit or Flask
 
-| Model              | Accuracy | ROC AUC |
-|--------------------|----------|---------|
-| Logistic Regression| 0.81     | 0.86    |
-| Random Forest      | 0.81     | 0.86    |
-| Optimized KNN      | 0.80     | 0.85    |
-| ANN (MLP)          | 0.80     | 0.86    |
+## 📎 How to Run
 
----
-
-## 🧠 Business Recommendations
-
-- Offer loyalty programs for high-churn-risk customers (e.g., month-to-month contracts)
-- Promote more convenient payment methods (e.g., auto-pay)
-- Implement early retention campaigns for new customers
-- Introduce pricing tiers to retain high-paying users
+1. Clone the repository
+2. Open the `.ipynb` notebook file in Jupyter/Colab
+3. Run all cells to see data analysis and prediction
 
 ---
 
-## 🛠️ Tech Stack
-
-- Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
-- Jupyter Notebook
-- PowerPoint (for presentation)
-
----
-
-## 📎 Dataset
-
-**Source**: [Kaggle – Telco Customer Churn](https://www.kaggle.com/datasets/mazenalattar/telco-customer-churn)
-
----
+**Author:** Jaymin Patel  
+**Email:** jaymin.mech7@gmail.com  
+**LinkedIn:** [linkedin.com/in/jaymin7](https://www.linkedin.com/in/jaymin7/)
