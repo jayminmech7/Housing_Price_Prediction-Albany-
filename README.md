@@ -6,13 +6,13 @@ This project predicts customer churn for a telecom company using machine learnin
 
 ## 📁 Project Structure
 
-- `notebooks/Customer_Churn_Prediction_FINAL_Cleaned.ipynb`  
+- `notebooks/Customer_Churn_Prediction_Telecom_Sector.ipynb`  
   ➤ Complete ML pipeline with EDA, feature engineering, and model evaluation
 
-- `presentation/INFO581_Telco_Churn_Presentation_Edited.pptx`  
+- `presentation/Customer Churn Prediction – Telecom Sector.pptx`  
   ➤ Business-facing summary with insights and actionable recommendations
 
-- `data/Telco-Customer-Churn.csv`  
+- `data/Telco-churn.csv`  
 ➤ Raw dataset containing 7,043 customer records with demographic, account, and usage information.
 
 ---
